@@ -42,8 +42,8 @@ charges.list()
     amount: 2900,
     customer: 'cus_2983jd92d2d',
     ..
-  }
-}
+  },
+  // ..
 ]
 ```
 
