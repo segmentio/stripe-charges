@@ -15,11 +15,11 @@ query(new Date('1/1/2014'), new Date('2/1/2014'), function (err, charges) {
 });
 ```
 
-And the `charges` object lets you query information about this charge cohort.
+The resulting `charges` object lets you further learn manipulate the charges.
 
 #### Number of Charges
 
-You can query the total amount of charges returned:
+Get the number of charges returned:
 
 ```js
 charges.count();
@@ -46,6 +46,7 @@ charges.list()
 }
 ]
 ```
+
 or filter further by the charges' `created` date:
 
 ```js
