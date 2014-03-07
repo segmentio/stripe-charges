@@ -17,7 +17,7 @@ query(new Date('1/1/2014'), new Date('2/1/2014'), function (err, charges) {
 
 The resulting `charges` object lets you further learn manipulate the charges.
 
-#### Number of Charges
+### Number of Charges
 
 Get the number of charges returned:
 
@@ -31,7 +31,7 @@ or filter further inside the cohort by the charges' `created` date:
 charges.count(new Date('1/15/2014'), new Date('1/24/2014'));
 ```
 
-#### Charges List
+### Charges List
 
 ```js
 charges.list()
@@ -58,7 +58,7 @@ or get all the `refunded` charges:
 charges.refunded(true).count();
 ```
 
-#### Total Amount
+### Total Amount
 
 You can get the total amount from the charges charges:
 
