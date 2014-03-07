@@ -3,6 +3,10 @@
 
   A [Stripe](https://stripe.com) charges API for node  - get a time based overview of how much you're making.
 
+## Installation
+
+    $ npm install stripe-charges
+
 ## Example
 
 Query charges by their `created` date:
