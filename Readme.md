@@ -1,7 +1,7 @@
 
 # stripe-charges
 
-  A [Stripe](https://stripe.com) charges API for node  - query Stripe charges to get a time based overview of how much you're making.
+  A [Stripe](https://stripe.com) charges API for node  - get a time based overview of how much you're making.
 
 ## Example
 
