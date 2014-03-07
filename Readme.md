@@ -43,7 +43,6 @@ charges.list()
     customer: 'cus_2983jd92d2d',
     ..
   },
-  // ..
 ]
 ```
 
