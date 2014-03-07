@@ -10,9 +10,7 @@ Query charges by their `created` date:
 ```js
 var query = require('stripe-charges')('stripe-key')
 
-var start = new Date('1/1/2014');
-var end = new Date('2/1/2014');
-query(start, end, function (err, charges) {
+query(new Date('1/1/2014'), new Date('2/1/2014'), function (err, charges) {
   console.log('Made $' + charges.total() + ' in January!');
 });
 ```
