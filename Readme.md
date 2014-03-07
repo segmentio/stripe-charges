@@ -60,7 +60,7 @@ charges.refunded(true).count();
 
 ### Total Amount
 
-You can get the total amount from the charges charges:
+You can get the total amount of money made from the charges:
 
 ```js
 charges.paid(true).refunded(false).total()
